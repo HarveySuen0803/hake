@@ -4,5 +4,5 @@ package com.harvey.test;
  * @author harvey
  */
 public interface HelloService {
-    String sayHello(String name);
+    String sayHello(String name, String content);
 }

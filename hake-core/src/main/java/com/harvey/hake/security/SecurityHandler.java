@@ -16,6 +16,7 @@ import org.slf4j.LoggerFactory;
  */
 public class SecurityHandler extends SimpleChannelInboundHandler<FullHttpRequest> {
     private static final Logger logger = LoggerFactory.getLogger(SecurityHandler.class);
+    
     private final JwtTokenService jwtTokenService;
     
     public SecurityHandler() {

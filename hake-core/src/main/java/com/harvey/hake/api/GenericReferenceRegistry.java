@@ -21,7 +21,7 @@ public class GenericReferenceRegistry {
         
         register(
             "sayHello",
-            new String[]{"java.lang.String"}
+            new String[]{"java.lang.String", "java.lang.String"}
         );
     }
     

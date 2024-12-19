@@ -5,7 +5,7 @@ package com.harvey.test;
  */
 public class HelloServiceImpl implements HelloService {
     @Override
-    public String sayHello(String name) {
-        return "hello " + name;
+    public String sayHello(String name, String content) {
+        return "hello " + name + ", " + content;
     }
 }
